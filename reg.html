@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie clips</title>
+    <link rel="stylesheet" href="CSS/registercss/regcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header style="background: skyblue;">
+
+        <a style="text-decoration: none;" href="#" class="logo"><i style="color: black;" class="fas fa-tv"></i>Movie clips</a>
+    
+        <nav class="navbar">
+            <a  style="text-decoration: none;" class="active" href="#home">Welcome to Movie clips</a>
+            
+        </nav>
+    
+        
+    </header>
+    
+    <section>
+      <div class="imgbx">
+          <img src="images/laptop.jpg" alt="">
+      </div>
+      <div class="contentbx">
+          <div class="formbx">
+              <h3>Movie clips</h3>
+              <h2>Sing up</h2>
+              <form action="register.php" method="post">
+                  <div class="inputbx">
+                    <span>Firstname</span>
+                    <input placeholder="Enter the Fristname.." type="text" name="fname" required>
+                  </div>
+                  <div class="inputbx">
+                    <span>Lastname</span>
+                    <input placeholder="Enter the Lastname.." type="text" name="lname" required>
+                  </div>
+                  <div class="inputbx">
+                    <span>Email</span>
+                    <input placeholder="Enter the email.." type="email" name="email" required>
+                  </div>
+                  <div class="inputbx">
+                    <span>Password</span>
+                    <input placeholder="Enter the Password.." type="password" name="pass" required>
+                
+                  </div>
+                  <div class="inputbx">
+                    <a href="login.html"><input type="submit"   value="Sign up" name=""></a>
+                </div>
+                <div class="inputbx">
+                  <p>Already Have Account <a href="login.html">Login</a></p>
+              </div>
+              </form>              
+                    
+            </div>
+              </form>
+          </div>
+      </div>
+    </section>
+    
+</body>
+</html>
